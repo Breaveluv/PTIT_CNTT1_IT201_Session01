@@ -3,7 +3,7 @@
 //
 #include <stdio.h>
 int main () {
-    int nam[]={1,2,3,4,,6,7,11,8,9};
+    int nam[]={1,2,3,4,6,7,11,8,9};
     int n= sizeof(nam)/sizeof(nam[0]);
     for (int i = 0 ; i< n-1; i++) {
         for ( int j =0;j<n-1-i;j++) {
