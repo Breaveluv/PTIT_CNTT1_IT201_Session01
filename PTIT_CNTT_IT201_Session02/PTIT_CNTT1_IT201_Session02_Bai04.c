@@ -30,7 +30,7 @@ int main() {
     scanf("%d",&newNum);
     arr[fixIndex]=newNum;
     for (int i =0;i<n;i++) {
-        printf("arr[%d]",i);
+        printf("%d",i);
     }
     return 0;
 }

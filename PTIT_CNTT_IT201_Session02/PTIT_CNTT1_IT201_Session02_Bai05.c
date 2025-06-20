@@ -24,7 +24,8 @@ int main() {
         if (indexDelete<0|| indexDelete>=n) {
             printf("NOOOOO");
 
-        }while (indexDelete<0|| indexDelete>=n);
+        }
+    }while (indexDelete<0|| indexDelete>=n);
         for (int i =indexDelete;i<n-1;i++) {
             arr[i]=arr[i+1];
 
